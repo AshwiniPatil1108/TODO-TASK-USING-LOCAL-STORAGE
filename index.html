@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>TODO TASK USING LOCAL STORAGE</title>
+			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+			<link rel="stylesheet" href="./accets/css/style.css">
+		</head>
+		<body>
+			<header class="p-4 mb-4 header">	
+				<div class="container-fluid">
+					<div class="row mb-4">
+						<div class="col-md-12">
+							TODO TASK USING LOCAL STORAGE
+						</div>
+					</div>
+				</div>
+			</header>
+			<div class="container">
+					<div class="row">
+						<div class="col-md-6 mb-4">
+							<div class="card">
+								<div class="card-body">
+									<form id ="todoForm">
+										<div class="form-group">
+											<label for="todoItem">Todo Item</label>
+											<input type="text" required id ="todoItem" class="form-control">
+										</div>
+										<div>
+											<button  
+											class="btn btn-outline-primary btn-block btn-sm"
+											type="submit"
+											id="submitbtn"
+											>
+												Add todo
+											</button>
+											<button 
+											class="btn btn-outline-primary btn-block btn-sm d-none"
+											type="button"
+											id="upadatebtn"
+											>
+												Update todo
+											</button>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<ul class="list-group"  id = "todoListontainer">
+								<li class="list-group-item">
+								
+								</li>
+							</ul>
+						</div>
+					</div>
+			</div>
+		
+			<script src="./accets/js/app.js"></script>
+		</body>
+	</html>
